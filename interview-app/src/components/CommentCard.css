@@ -1,0 +1,38 @@
+.comment-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.comment-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.avatar--sm {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ccc;
+  flex-shrink: 0;
+}
+
+.comment-card__title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.comment-card__email {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.comment-card__body {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+  white-space: pre-line;
+}
